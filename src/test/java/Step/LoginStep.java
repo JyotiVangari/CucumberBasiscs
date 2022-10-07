@@ -35,7 +35,7 @@ public class LoginStep extends TestBase {
 		// .quit();
 		action.moveToElement(signup).keyDown(Keys.CONTROL).click().build().perform();
 		Windowhandle();
-
+		TestBase.RegistrationTitle_Name=driver.getTitle();
 	}
 
 }
